@@ -140,14 +140,6 @@ h3 {
   margin-top: 2rem;
 }
 
-.underline {
-  width: 15rem;
-  height: 1rem;
-  margin: 2rem auto 0 auto;
-  background: #4267b2;
-  border-radius: 5rem;
-}
-
 footer {
   margin-top: 4rem;
   padding: 1rem;
@@ -201,10 +193,6 @@ footer {
     max-width: 30%;
   }
 
-  .paragraph {
-    min-height: 20rem;
-  }
-
   .my-projects {
     width: 80%;
     margin: 0 auto;
@@ -228,9 +216,5 @@ footer {
     width: 20rem;
     position: absolute;
     right: 0;
-  }
-
-  .paragraph {
-    min-height: 15rem;
   }
 }
