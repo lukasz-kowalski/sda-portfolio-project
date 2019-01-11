@@ -155,6 +155,7 @@ footer {
   width: 10rem;
   height: 10rem;
   margin: auto;
+  margin-top: 1rem;
   animation: spin 2s linear infinite;
 }
 

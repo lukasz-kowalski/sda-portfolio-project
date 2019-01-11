@@ -30,7 +30,7 @@ const toggleBackground = () => {
 
 toggleBackgroundButton.addEventListener('click', toggleBackground);
 
-fetch('http://api.openweathermap.org/data/2.5/weather?q=Szczecin,pl&units=metric&appid=b8b342f32a9b8e08220155cb09a4fc76')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Szczecin,pl&units=metric&appid=b8b342f32a9b8e08220155cb09a4fc76')
   .then(response => response.json())
   .then(data => {
     weather.innerHTML = `Weather in ${data.name}, ${data.sys.country} of ${new Date().toLocaleDateString()}:
